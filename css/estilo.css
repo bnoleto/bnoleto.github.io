@@ -22,7 +22,7 @@
 
 h1{
 	font-weight: bold;
-	font-style: italic;
+	font-variant: small-caps;
 }
 
 .container {
