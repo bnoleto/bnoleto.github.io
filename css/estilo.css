@@ -24,7 +24,8 @@
  }
 
 h1{
-	font-weight: bold;
+	font-weight: lighter;
+	letter-spacing: -2px;
 	margin: 0;
 }
 
