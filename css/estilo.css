@@ -1,10 +1,13 @@
 /* Implementação manual da classe do bootstrap 3, bootstrap 4 não possui ela */
 .page-header {
-	padding-bottom: 2rem;
-	margin-top: 4rem;
-	margin-bottom: 2rem;
-	border-bottom: 1px solid #fff;
 	text-align: center;
+}
+
+.page-break {
+	margin: 4rem 0;
+	background: #fff;
+	height: 1px;
+	width: 100%;
 }
 
 *.unselectable {
@@ -22,16 +25,11 @@
 
 h1{
 	font-weight: bold;
+	margin: 0;
 }
 
 .container {
 	align-items: center;
-}
-
-#conteudo {
-	padding-top: 2rem;
-	margin-bottom: 4rem;
-	margin-top: 2rem;
 }
 
 #rodape {
