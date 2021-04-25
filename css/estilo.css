@@ -3,7 +3,7 @@
 	padding-bottom: 2rem;
 	margin-top: 4rem;
 	margin-bottom: 2rem;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #fff;
 	text-align: center;
 }
 
@@ -22,7 +22,6 @@
 
 h1{
 	font-weight: bold;
-	font-variant: small-caps;
 }
 
 .container {
@@ -46,7 +45,12 @@ h1{
 
 #fundo{
 	position: absolute;
-	background-image: linear-gradient(rgb(255, 255, 255), rgb(200, 200, 200));
+	background: rgb(55, 2, 78);
 	height: 100%;
 	width: 100vw;
+}
+
+body {
+	color: white;
+	font-family: 'Raleway', sans-serif;
 }
